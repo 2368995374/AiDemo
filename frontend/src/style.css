@@ -1,0 +1,9 @@
+/* 全局重置 - 由 App.vue 控制主样式 */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #app { height: 100%; width: 100%; }
+body {
+  margin: 0;
+  background: #11111b;
+  color: #cdd6f4;
+  font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
